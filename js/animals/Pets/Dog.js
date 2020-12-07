@@ -5,7 +5,7 @@ class Dog extends Pet {
         super ( name, color, legsCount, 'likes',  )
     
     
-    this.animalKind = "The dog";
+    this.animalKind = "dog";
     this.noise = "Bark-bark!";
     this.movement = "zoomie";
     }    
