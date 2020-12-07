@@ -42,3 +42,9 @@ jessica.fly();
 jessica.introduce();
 jessica.sound();
 
+console.log ("_____________________________________________")
+
+const zambezi = new Animals.Bullshark ("Zambezi", "grey", "8 fins");
+zambezi.swim();
+zambezi.introduce();
+zambezi.sound();
