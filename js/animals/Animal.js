@@ -5,7 +5,7 @@ class Animal {
     }
 
     introduce () {
-        console.log (`Hello, this is ${this.name} speaking. I am a ${this.color} ${this.animalKind} that ${this.likePlaying} playing.`);
+        console.log (`Hello, this is ${this.name} speaking. I am a ${this.color} ${this.animalKind}${this.likePlaying}.`);
     }
     
     sound () {

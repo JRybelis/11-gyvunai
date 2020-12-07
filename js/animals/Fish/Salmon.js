@@ -2,7 +2,7 @@ import { Fish } from "./Fish.js";
 
 class Salmon extends Fish {
     constructor ( name, color, finCount ) {
-        super ( name, color, finCount, "dislikes")
+        super ( name, color, finCount)
     
     this.animalKind = "salmon";
     this.noise = "gulp gulp.";
