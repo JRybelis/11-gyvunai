@@ -25,3 +25,10 @@ const clarice = new Animals.Chicken ("Clarice", "brown", "2 wings");
 clarice.fly();
 clarice.introduce();
 clarice.sound();
+
+console.log ("_____________________________________________")
+const maksas = new Animals.Parrot ("Maksas", "grey", "2 wings");
+maksas.fly();
+maksas.introduce();
+maksas.sound();
+maksas.repeatSound();
