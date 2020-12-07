@@ -1,13 +1,13 @@
 import { Pet } from "./Pet.js";
 
 class Dog extends Pet {
-    constructor ( name, color, legsCount, animalKind ) {
-        super ( name, color, animalKind, legsCount, 'likes',  )
+    constructor ( name, color, legsCount ) {
+        super ( name, color, legsCount, 'likes',  )
     
     
-    // this.animalKind = "The dog";
+    this.animalKind = "The dog";
     this.noise = "Bark-bark!";
-    // this.movement = "zoomie";
+    this.movement = "zoomie";
     }    
 }
 export { Dog }

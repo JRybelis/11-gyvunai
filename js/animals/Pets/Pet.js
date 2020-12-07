@@ -1,8 +1,9 @@
 import { Animal } from "../Animal.js";
 
 class Pet extends Animal {
-    constructor ( name, color, animalKind, legsCount, likePlaying ) {
-        super ( name, color, animalKind)
+    constructor ( name, color, legsCount, likePlaying ) {
+        super ( name, color)
+            // this.animalKind = animalKind;
             this.legsCount = legsCount;
             this.likePlaying = likePlaying;
             // this.movement = movement;

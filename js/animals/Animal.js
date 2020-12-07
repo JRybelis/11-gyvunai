@@ -1,8 +1,8 @@
 class Animal {
-    constructor (name, color, animalKind) {
+    constructor (name, color) {
     this.name = name;
     this.color = color;
-    this.animalKind = animalKind;
+    // this.animalKind = animalKind;
     // this.noise = noise;
     }
 
