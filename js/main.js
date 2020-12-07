@@ -48,3 +48,17 @@ const zambezi = new Animals.Bullshark ("Zambezi", "grey", "8 fins");
 zambezi.swim();
 zambezi.introduce();
 zambezi.sound();
+
+console.log ("_____________________________________________")
+
+const clown = new Animals.Goldfish ("Clown", "yellow", "7 fins");
+clown.swim();
+clown.introduce();
+clown.sound();
+
+console.log ("_____________________________________________")
+
+const sammy = new Animals.Salmon ("Sammy", "pink", "7 fins");
+sammy.swim();
+sammy.introduce();
+sammy.sound();
