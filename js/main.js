@@ -21,14 +21,24 @@ bugs.introduce();
 bugs.sound();
 
 console.log ("_____________________________________________")
+
 const clarice = new Animals.Chicken ("Clarice", "brown", "2 wings");
 clarice.fly();
 clarice.introduce();
 clarice.sound();
 
 console.log ("_____________________________________________")
+
 const maksas = new Animals.Parrot ("Maksas", "grey", "2 wings");
 maksas.fly();
 maksas.introduce();
 maksas.sound();
 maksas.repeatSound();
+
+console.log ("_____________________________________________")
+
+const jessica = new Animals.Sparrow ("Jessica", "red", "2 wings");
+jessica.fly();
+jessica.introduce();
+jessica.sound();
+
