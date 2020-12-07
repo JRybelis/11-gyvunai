@@ -19,3 +19,9 @@ const bugs = new Animals.Rabbit ("Bugs", "grey", "4 legs");
 bugs.walk();
 bugs.introduce();
 bugs.sound();
+
+console.log ("_____________________________________________")
+const clarice = new Animals.Chicken ("Clarice", "brown", "2 wings");
+clarice.fly();
+clarice.introduce();
+clarice.sound();
